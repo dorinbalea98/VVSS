@@ -2,8 +2,11 @@ package UI;
 
 import Exceptions.ValidatorException;
 import Repository.StudentXMLRepo;
+import Repository.TemaLabXMLRepo;
 import Service.StudentXMLService;
+import Service.TemaLabXMLService;
 import Validator.StudentValidator;
+import Validator.TemaLabValidator;
 import com.google.common.collect.Iterables;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,8 +24,63 @@ public class uiTest {
         StudentValidator vs=new StudentValidator();
         StudentXMLRepo strepo=new StudentXMLRepo(vs,"StudentiXML.xml");
         StudentXMLService stsrv=new StudentXMLService(strepo);
-        ui=new ui(stsrv);
+        TemaLabValidator vl = new TemaLabValidator();
+        TemaLabXMLRepo tlRepo = new TemaLabXMLRepo(vl, "TemaLabXML.xml");
+        TemaLabXMLService tmlsrv = new TemaLabXMLService(tlRepo);
+        ui=new ui(stsrv, tmlsrv);
     }
+
+
+    @Test
+    public void addHomeworkSuccessTestCase() {
+        try {
+
+            String simulatedUserInput = "1" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Tema" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+            int size = Iterables.size(this.ui.tmLbSrv.findAll());
+
+            ui.addHomework();
+
+            System.setIn(savedStandardInputStream);
+
+            assertEquals(Iterables.size(ui.tmLbSrv.findAll()), size + 1 );
+        } catch (ValidatorException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void addHomeworkFailedTestCase() {
+
+        int size = Iterables.size(this.ui.tmLbSrv.findAll());
+
+        try {
+
+            String simulatedUserInput = "Ana" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Tema laborator saptamana 2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+
+            ui.addHomework();
+
+            System.setIn(savedStandardInputStream);
+
+        } catch (Exception e) {
+            assertEquals(Iterables.size(ui.tmLbSrv.findAll()), size);
+        }
+    }
+
+
 
     @Test
     public void addStudentSuccessTestCase() {
