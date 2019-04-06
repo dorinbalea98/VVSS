@@ -1,6 +1,7 @@
 package Repository;
 
 import Domain.HasId;
+import Domain.TemaLab;
 import Exceptions.ValidatorException;
 import Validator.IValidator;
 import org.w3c.dom.Document;

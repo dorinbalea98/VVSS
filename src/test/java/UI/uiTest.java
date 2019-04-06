@@ -12,7 +12,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
 
 import static org.junit.Assert.*;
 
@@ -76,6 +79,200 @@ public class uiTest {
             System.setIn(savedStandardInputStream);
 
         } catch (Exception e) {
+            assertEquals(Iterables.size(ui.tmLbSrv.findAll()), size);
+        }
+    }
+
+    @Test
+    public void addHomeworkFailedTestCaseIntegerParseIntId() {
+
+        int size = Iterables.size(this.ui.tmLbSrv.findAll());
+
+        try {
+
+            String simulatedUserInput = "Ana" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Tema laborator saptamana 2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+
+            ui.addHomework();
+
+            System.setIn(savedStandardInputStream);
+
+        } catch (NumberFormatException e) {
+            assertEquals(Iterables.size(ui.tmLbSrv.findAll()), size);
+        } catch (ValidatorException e) {
+            assert false;
+        }
+    }
+
+    @Test
+    public void addHomeworkFailedTestCaseIntegerParseIntWeek() {
+
+        int size = Iterables.size(this.ui.tmLbSrv.findAll());
+
+        try {
+
+            String simulatedUserInput = "10" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Tema laborator saptamana 2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Ana" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+
+            ui.addHomework();
+
+            System.setIn(savedStandardInputStream);
+
+        } catch (NumberFormatException e) {
+            assertEquals(Iterables.size(ui.tmLbSrv.findAll()), size);
+        } catch (ValidatorException e) {
+            assert false;
+        }
+    }
+
+
+    @Test
+    public void addHomeworkWriteToFileTestCase() {
+
+        try {
+
+            // delete the TemaLabXML file so we can test that the writeToFile method creates it.
+            File file = new File("TemaLabXML.xml");
+                boolean result = Files.deleteIfExists(file.toPath());
+
+            String simulatedUserInput = "1" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Tema laborator saptamana 2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "4" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+
+            ui.addHomework();
+
+            File f = new File("TemaLabXML.xml");
+
+            assertTrue(f.exists() && !f.isDirectory());
+
+            System.setIn(savedStandardInputStream);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void addHomeworkWriteToFileTestCaseFail() {
+
+        try {
+
+            // delete the TemaLabXML file so we can test that the writeToFile method creates it.
+            File file = new File("TemaLabXML.xml");
+            boolean result = Files.deleteIfExists(file.toPath());
+
+            // input error here so it doesn't get to the writeToFile method
+            String simulatedUserInput = "Aana" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Tema laborator saptamana 2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "4" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+
+            ui.addHomework();
+
+            File f = new File("TemaLabXML.xml");
+
+            assertFalse(f.exists());
+
+            System.setIn(savedStandardInputStream);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    @Test
+    public void addHomeworkFailedTestCaseForNameValidation() {
+
+        int size = Iterables.size(this.ui.tmLbSrv.findAll());
+
+        try {
+
+            String simulatedUserInput = "4" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+
+            ui.addHomework();
+
+            System.setIn(savedStandardInputStream);
+
+        } catch (ValidatorException e) {
+            assertEquals(Iterables.size(ui.tmLbSrv.findAll()), size);
+        }
+    }
+
+    @Test
+    public void addHomeworkFailedTestCaseForWeekValidation() {
+
+        int size = Iterables.size(this.ui.tmLbSrv.findAll());
+
+        try {
+
+            String simulatedUserInput = "4" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Tema" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "-1" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+
+            ui.addHomework();
+
+            System.setIn(savedStandardInputStream);
+
+        } catch (ValidatorException e) {
+            assertEquals(Iterables.size(ui.tmLbSrv.findAll()), size);
+        }
+    }
+
+    @Test
+    public void addHomeworkFailedTestCaseForDeadlineValidation() {
+
+        int size = Iterables.size(this.ui.tmLbSrv.findAll());
+
+        try {
+
+            String simulatedUserInput = "4" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "Tema" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "2" + System.getProperty("line.separator") + System.getProperty("line.separator")
+                    + "15" + System.getProperty("line.separator") + System.getProperty("line.separator");
+
+            InputStream savedStandardInputStream = System.in;
+            System.setIn(new ByteArrayInputStream(simulatedUserInput.getBytes()));
+
+
+            ui.addHomework();
+
+            System.setIn(savedStandardInputStream);
+
+        } catch (ValidatorException e) {
             assertEquals(Iterables.size(ui.tmLbSrv.findAll()), size);
         }
     }
