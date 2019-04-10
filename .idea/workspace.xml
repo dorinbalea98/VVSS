@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3a4ebfeb-3054-4a26-9b26-8e489f7a07e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemaLabXML.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/AbstractXMLRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/AbstractXMLRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentiXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentiXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/ui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UI/uiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UI/uiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Repository/AbstractXMLRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/AbstractXMLRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UI/ui.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UI/ui.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/UI/uiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UI/uiTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,20 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UI/ui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Service/AbstractXMLService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="132">
+              <caret line="83" column="25" lean-forward="true" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,23 +40,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/UI/uiTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Integration/Lab4Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="104" column="61" lean-forward="true" selection-start-line="104" selection-start-column="61" selection-end-line="104" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AbstractXMLRepo.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/format/DateTimeFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="1850" selection-start-line="1850" selection-end-line="1850" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Service/NotaXMLService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
-                <element signature="e#3321#3322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/LocalDateTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="471" column="65" selection-start-line="471" selection-start-column="65" selection-end-line="471" selection-end-column="66" />
+              <folding>
+                <element signature="e#21866#21867#0" expanded="true" />
+                <element signature="e#21939#21940#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +89,16 @@
         <entry file="file://$PROJECT_DIR$/StudentiXML.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="86" lean-forward="true" selection-start-column="86" selection-end-column="86" />
+              <caret column="86" selection-start-column="86" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TemaLabXML.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="36" selection-start-column="35" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -98,6 +118,7 @@
     <findStrings>
       <find>inbox</find>
       <find>addHomeworkWrite</find>
+      <find>addStudentS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,9 +148,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Repository/TemaLabXMLRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Validator/TemaLabValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Service/TemaLabXMLService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/ui.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository/AbstractXMLRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/NotaXMLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Domain/Nota.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Validator/NotaValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Repository/NotaXMLRepo.java" />
         <option value="$PROJECT_DIR$/src/test/java/UI/uiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/NotaXMLService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/ui.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Integration/Lab4Tests.java" />
       </list>
     </option>
   </component>
@@ -153,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +264,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab1VVSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VVSS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,12 +284,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554571707972" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554883895454" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -291,19 +326,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.uiTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.Lab4Tests">
+    <configuration name="Lab4Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VVSS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Integration" />
+      <option name="MAIN_CLASS_NAME" value="Integration.Lab4Tests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.addStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab4Tests.addCNotaSuccessTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VVSS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="addStudent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Integration" />
+      <option name="MAIN_CLASS_NAME" value="Integration.Lab4Tests" />
+      <option name="METHOD_NAME" value="addCNotaSuccessTestCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4Tests.addHomeworkSuccessTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Integration" />
+      <option name="MAIN_CLASS_NAME" value="Integration.Lab4Tests" />
+      <option name="METHOD_NAME" value="addHomeworkSuccessTestCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4Tests.addNotaSuccessTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Integration" />
+      <option name="MAIN_CLASS_NAME" value="Integration.Lab4Tests" />
+      <option name="METHOD_NAME" value="addNotaSuccessTestCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,55 +393,23 @@
       <module name="VVSS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UI.*" />
+          <option name="PATTERN" value="Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UI" />
       <option name="MAIN_CLASS_NAME" value="UI.uiTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="uiTest.addHomeworkWriteToFileTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVSS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UI" />
-      <option name="MAIN_CLASS_NAME" value="UI.uiTest" />
-      <option name="METHOD_NAME" value="addHomeworkWriteToFileTestCase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="uiTest.addStudentTestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="VVSS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UI.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UI" />
-      <option name="MAIN_CLASS_NAME" value="UI.uiTest" />
-      <option name="METHOD_NAME" value="addStudentTestCase1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Lab4Tests" />
+        <item itemvalue="JUnit.Lab4Tests.addCNotaSuccessTestCase" />
+        <item itemvalue="JUnit.Lab4Tests.addNotaSuccessTestCase" />
+        <item itemvalue="JUnit.Lab4Tests.addHomeworkSuccessTestCase" />
         <item itemvalue="JUnit.uiTest" />
-        <item itemvalue="JUnit.uiTest.addHomeworkWriteToFileTestCase" />
-        <item itemvalue="JUnit.uiTest.addStudentTestCase1" />
-        <item itemvalue="JUnit.MainTest.addStudent" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -382,44 +430,46 @@
       <workItem from="1553675109387" duration="310000" />
       <workItem from="1553675620838" duration="1668000" />
       <workItem from="1553802659804" duration="144000" />
-      <workItem from="1554568859689" duration="2840000" />
+      <workItem from="1554568859689" duration="2876000" />
+      <workItem from="1554571847618" duration="1357000" />
+      <workItem from="1554880929043" duration="2954000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="uiTest - 2019.04.06 at 20h 12m 55s.xml">
-      <configuration name="uiTest" configurationId="JUnit" />
+    <history-entry file="Lab4Tests_addNotaSuccessTestCase - 2019.04.10 at 10h 54m 23s.xml">
+      <configuration name="Lab4Tests.addNotaSuccessTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest - 2019.04.06 at 20h 17m 22s.xml">
-      <configuration name="uiTest" configurationId="JUnit" />
+    <history-entry file="Lab4Tests_addNotaSuccessTestCase - 2019.04.10 at 10h 54m 43s.xml">
+      <configuration name="Lab4Tests.addNotaSuccessTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest - 2019.04.06 at 20h 18m 52s.xml">
-      <configuration name="uiTest" configurationId="JUnit" />
+    <history-entry file="Lab4Tests_addNotaSuccessTestCase - 2019.04.10 at 10h 55m 18s.xml">
+      <configuration name="Lab4Tests.addNotaSuccessTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest - 2019.04.06 at 20h 19m 17s.xml">
-      <configuration name="uiTest" configurationId="JUnit" />
+    <history-entry file="Lab4Tests - 2019.04.10 at 10h 55m 32s.xml">
+      <configuration name="Lab4Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest_addHomeworkWriteToFileTestCase - 2019.04.06 at 20h 19m 50s.xml">
-      <configuration name="uiTest.addHomeworkWriteToFileTestCase" configurationId="JUnit" />
+    <history-entry file="Lab4Tests - 2019.04.10 at 10h 59m 47s.xml">
+      <configuration name="Lab4Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest_addHomeworkWriteToFileTestCase - 2019.04.06 at 20h 20m 10s.xml">
-      <configuration name="uiTest.addHomeworkWriteToFileTestCase" configurationId="JUnit" />
+    <history-entry file="Lab4Tests - 2019.04.10 at 11h 01m 48s.xml">
+      <configuration name="Lab4Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest - 2019.04.06 at 20h 20m 21s.xml">
-      <configuration name="uiTest" configurationId="JUnit" />
+    <history-entry file="Lab4Tests_addCNotaSuccessTestCase - 2019.04.10 at 11h 09m 08s.xml">
+      <configuration name="Lab4Tests.addCNotaSuccessTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest_addHomeworkWriteToFileTestCase - 2019.04.06 at 20h 20m 28s.xml">
-      <configuration name="uiTest.addHomeworkWriteToFileTestCase" configurationId="JUnit" />
+    <history-entry file="Lab4Tests_addCNotaSuccessTestCase - 2019.04.10 at 11h 09m 58s.xml">
+      <configuration name="Lab4Tests.addCNotaSuccessTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest_addHomeworkWriteToFileTestCase - 2019.04.06 at 20h 26m 41s.xml">
-      <configuration name="uiTest.addHomeworkWriteToFileTestCase" configurationId="JUnit" />
+    <history-entry file="Lab4Tests_addCNotaSuccessTestCase - 2019.04.10 at 11h 11m 07s.xml">
+      <configuration name="Lab4Tests.addCNotaSuccessTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="uiTest - 2019.04.06 at 20h 27m 59s.xml">
-      <configuration name="uiTest" configurationId="JUnit" />
+    <history-entry file="Lab4Tests - 2019.04.10 at 11h 11m 15s.xml">
+      <configuration name="Lab4Tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13209000" />
+    <option name="totallyTimeSpent" value="17556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -434,7 +484,7 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24929178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47025496" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +495,6 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.38926175" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -456,6 +505,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.38926175" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
@@ -551,26 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/StudentXMLRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -589,36 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/TemaLabXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/ui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Service/AbstractXMLService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -644,10 +644,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/StudentXMLRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/TemaLabXMLRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/TemaLabXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/StudentXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -656,12 +686,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/AbstractXMLRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="184">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3321#3322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Domain/Nota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/NotaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Repository/NotaXMLRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" selection-start-line="12" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/AbstractXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,7 +738,7 @@
     <entry file="file://$PROJECT_DIR$/StudentiXML.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="86" lean-forward="true" selection-start-column="86" selection-end-column="86" />
+          <caret column="86" selection-start-column="86" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -680,10 +749,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/ui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="83" column="25" lean-forward="true" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UI/uiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+        <state relative-caret-position="-513">
+          <caret line="288" column="90" lean-forward="true" selection-start-line="288" selection-start-column="90" selection-end-line="288" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="1850" selection-start-line="1850" selection-end-line="1850" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="471" column="65" selection-start-line="471" selection-start-column="65" selection-end-line="471" selection-end-column="66" />
+          <folding>
+            <element signature="e#21866#21867#0" expanded="true" />
+            <element signature="e#21939#21940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/NotaXMLService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Integration/Lab4Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="104" column="61" lean-forward="true" selection-start-line="104" selection-start-column="61" selection-end-line="104" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

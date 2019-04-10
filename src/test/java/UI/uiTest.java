@@ -30,7 +30,7 @@ public class uiTest {
         TemaLabValidator vl = new TemaLabValidator();
         TemaLabXMLRepo tlRepo = new TemaLabXMLRepo(vl, "TemaLabXML.xml");
         TemaLabXMLService tmlsrv = new TemaLabXMLService(tlRepo);
-        ui=new ui(stsrv, tmlsrv);
+        ui=new ui(stsrv, tmlsrv, null);
     }
 
 
